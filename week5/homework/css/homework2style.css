@@ -1,7 +1,7 @@
 #container {
     background-color: rgb(34, 188, 235);
-    max-width: 1024px; /how big the box , max will not change/
-    margin: auto; /only box, display center/
+    max-width: 1024px;
+    margin: auto;
   }
 
 .headerbar{
