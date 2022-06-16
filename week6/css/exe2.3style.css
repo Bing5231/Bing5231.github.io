@@ -1,0 +1,54 @@
+.item1 { grid-area: logo; }
+.item2 { grid-area: phone; }
+.item3 { grid-area: menu; }
+.item4 { grid-area: slideshow; }
+.item5 { grid-area: sidebar; }
+.item6 { grid-area: textcontent; }
+.item7 { grid-area: footer; }
+
+.grid-container {
+    max-width: 1024px;
+    margin: auto;
+  display: grid;
+  grid-template-areas:
+    'logo logo x phone phone phone'
+    'logo logo x menu menu menu'
+    'slideshow slideshow slideshow slideshow slideshow slideshow '
+    'textcontent textcontent textcontent sidebar sidebar sidebar'
+    'footer footer footer footer footer footer ';
+    grid-template-rows: 80px 80px 220px 360px 90px;
+
+
+    
+    
+    
+    
+
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item2{
+  width: 40%;
+  margin-left: 400px;
+}
+
+.item1{
+  width: 160%;
+}
+
+.item6{
+  width: 160%;
+}
+
+.item5{
+  margin-left: 200px;
+}

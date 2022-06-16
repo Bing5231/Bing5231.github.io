@@ -1,0 +1,53 @@
+.item1 { grid-area: blog; }
+.item2 { grid-area: logo; }
+.item3 { grid-area: phone; }
+.item4 { grid-area: menu; }
+.item5 { grid-area: slideshow; }
+.item6 { grid-area: sidebar; }
+.item7 { grid-area: textcontent; }
+.item8 { grid-area: footer; }
+
+.grid-container {
+    max-width: 1024px;
+    margin: auto;
+  display: grid;
+  grid-template-areas:
+    'blog blog blog blog blog blog'
+    'logo logo x phone phone phone'
+    'logo logo x menu menu menu'
+    'slideshow slideshow slideshow slideshow sidebar sidebar '
+    'textcontent textcontent textcontent textcontent sidebar sidebar'
+    'footer footer footer footer footer footer ';
+    grid-template-rows: 80px 80px 80px 360px 180px;
+
+
+    
+    
+    
+    
+
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item3{
+  width: 40%;
+  margin-left: 440px;
+}
+
+.item2{
+  width: 160%;
+}
+
+.item4{
+  margin-left: 100px;
+}
+
