@@ -1,0 +1,764 @@
+body,html{
+    height: 100%;
+    margin: 0;
+  }
+
+.item1 {
+    grid-area: logo;
+}
+
+.item2 {
+    grid-area: menu;
+}
+
+.item3 {
+    grid-area: content1;
+}
+
+.item4 {
+    grid-area: pic1;
+}
+
+.item5 {
+    grid-area: pic2;
+}
+
+.item6 {
+    grid-area: content2;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'logo menu'
+        'content1 pic1'
+        'pic2 content2';
+    background-image: url(../homework/images/Bg\ Shape@2x.png);
+    background-size: 720px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: relative;
+}
+
+.grid-container{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.item1 {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.item1 h2 {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}
+
+.item2 {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.item2 a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+}
+
+.item2 :hover{
+    text-decoration: underline;
+}
+
+.item3 {
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 700px;
+}
+
+.box1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 180px;
+    left: 10px;
+}
+
+.box1 img {
+    padding: 20px;
+}
+
+.vl {
+    border-left: 10px solid blue;
+    height: 50px;
+    position: absolute;
+    left: 37px;
+    bottom: 120px;
+    margin-left: -3px;
+}
+
+.box2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+    padding-top: 100px;
+    text-align: left;
+    width: 500px;
+}
+
+.box2 button {
+    background-image: url(../homework/images/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 60px;
+    color: white;
+    border: none; 
+    border-radius: 25px;  
+    text-align: center;
+    font-size: medium;
+}
+
+.box2 h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.box2 h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.mouse {
+    position: absolute;
+    bottom: 10px;
+    left: 740px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.item4 {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.item5{
+    margin-top: 180px;
+}
+
+.item6{
+    margin-top: 180px;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.item6 p{
+    opacity: 0.5;
+}
+
+.item6 h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: rgba(148,143,225,255);
+    margin: 0px ;
+}
+
+.item6 button {
+    background-image: url(../homework/images/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 50px;
+    color: white;
+    border: none; 
+    border-radius: 25px;  
+    text-align: center;
+    font-size: medium;
+}
+
+@media screen and (max-width: 900px) {
+    #grid1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-position: top;
+    }
+    #marketing{
+        position: relative;
+        right: 300px;
+    }
+    #menu{
+        position: relative;
+        left: 150px;
+    }
+    .mouse{
+        display: none;
+    }
+    #grid2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
+
+.thrid_container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: auto;
+    margin: -10px;
+}
+
+.thrid_container .above_box{
+    padding: 50px;
+}
+
+.thrid_container .above_box h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: rgba(148,143,225,255);
+    margin: 0px ;
+}
+
+.thrid_container .above_box h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 4vw;
+    margin-bottom: 18px;
+    margin-top: 0px;
+}
+
+.thrid_container .below_container{
+    width: 100%;
+    height: 100%;    
+    margin: auto;
+}
+
+.thrid_container .below_container .inside_container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.thrid_container .below_container .inside_container .box{
+    background-color: white;
+    width: 24%;
+    padding: 20px;
+    box-shadow: 0px 5px 10px lightgray;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.thrid_container .below_container .inside_container .box img{
+    margin: auto;
+    margin-top: 9px;
+    margin-bottom: 18px;
+}
+
+.thrid_container .below_container .inside_container .box h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900; 
+    margin-top: 20px ;
+}
+
+.thrid_container .below_container .inside_container .box .btn_box_container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.thrid_container .below_container .inside_container .box .btn_box_container .btn-box{
+    background-image: url("../homework/images/Rectangle\ 8@2x.png");
+    background-repeat: no-repeat;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    margin-left: 160px;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 50px;
+    margin-top: 0px;
+}
+
+.thrid_container .below_container .inside_container .box .btn_box_container .btn-box a{
+    text-decoration: none;
+}
+
+.thrid_container .below_container .inside_container .box .btn_box_container .btn-box a h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width : 850px) {
+    .thrid_container .below_container .inside_container .box{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .thrid_container .below_container .inside_container .box{
+        width: 90%;
+    }
+}
+
+.four_container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(236,234,255,255);
+    margin: -10px;
+}
+
+.four_container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(236,234,255,255);
+    margin: -10px;
+}
+
+.four_container .above_container{
+    text-align: center;
+}
+
+.four_container .above_container h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: rgba(148,143,225,255);
+    margin: 0px ;
+    margin-top: 40px;
+}
+
+.four_container .above_container h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 4vw;
+    margin-bottom: 18px;
+    margin-top: 0px;
+}
+
+.four_container .below_container{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.four_container .below_container .below_box{
+    max-width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    margin: 30px 60px;
+}
+
+.four_container .below_container .below_box h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 40px;
+}
+
+.four_container .below_container .below_box p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    color: rgba(150,155,170,255);
+    margin: 10px;
+}
+
+.four_container .below_container .below_box h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin: 20px;
+    color: rgba(18,5,224,255);
+}
+
+.four_container .below_container .below_box .btn_box_container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.four_container .below_container .below_box .btn_box_container .btn-box.active{
+    background-image: url("../homework/images/Rectangle\ 8@2x.png");
+    background-repeat: no-repeat;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 50px;
+    margin: 10px 0px 40px 0px;
+}
+
+.four_container .below_container .below_box .btn_box_container .btn-box.non_active{
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border: 1px black solid;
+    border-radius: 50px;
+    margin: 10px 0px 40px 0px;
+}
+
+.four_container .below_container .below_box .btn_box_container .btn-box a{
+    text-decoration: none;
+}
+
+.four_container .below_container .below_box .btn_box_container .btn-box a h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.four_container .below_container .below_box .btn_box_container .btn-box.non_active a h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.four_container .footer_dot_contaier{
+    text-align: center;
+    padding: 20px;
+}
+
+.four_container .footer_dot_contaier .footer_dot{
+  cursor: pointer;
+  height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.four_container .footer_dot_contaier .footer_dot:hover {
+    height: 15px;
+    width: 15px;
+    background-color: #717171;
+}
+
+@media screen and (max-width :  850px) {
+    .four_container .below_container{
+        flex-wrap: wrap;
+    }
+
+    .four_container .below_container .below_box{
+        width: 30%;
+    }
+
+    .four_container .below_container .below_box p{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width :  480px) {
+    .four_container .below_container .below_box{
+        width: 100%;
+    }
+
+    .four_container .below_container .below_box p{
+        font-size: 3vw;
+    }
+}
+
+.fifth_container{
+    /* position: relative; */
+    background-image: url("../homework/images/Bg\ Shape\ footer\ 2@2x.png"), url("../homework/images/Bg\ Shape\ footer\ 1@2x.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1980px 1500px, 3060px 2800px;
+    background-position: 80% 18%, 123% 30%;
+    display: flex;
+    flex-direction: column;
+    margin: -10px;
+}
+
+
+
+.fifth_container .above_container .above_inside_container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.fifth_container .above_container .above_inside_container h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: rgba(148,143,225,255);
+    margin: 0px ;
+    margin-top: 40px;
+}
+
+.fifth_container .above_container .above_inside_container h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.fifth_container .above_container .above_inside_container h5 span{
+    font-weight: 900;
+}
+
+.fifth_container .above_container .below_inside_container{
+    display: flex;
+    justify-content: center;
+}
+
+.fifth_container .above_container .below_inside_container form input[type=text]{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    width: 350px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(246,247,251,255);
+    padding: 7px 15px;
+}
+
+.fifth_container .above_container .below_inside_container form input[type=submit]{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgba(50,42,189,255);
+    color: white;
+    cursor: pointer;
+}
+
+.fifth_container .below_container{
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 60px;
+    /* background-color: rgba(66,55,209,255); */
+}
+
+
+.fifth_container .below_container .inside_left_container{
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.fifth_container .below_container .inside_left_container .first_box{
+    min-width: 300px;
+    padding: 20px;
+}
+
+.fifth_container .below_container .inside_left_container .first_box h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.fifth_container .below_container .inside_left_container .first_box span{
+    padding: 10px
+}
+
+
+.fifth_container .below_container .inside_right_container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifth_container .below_container .inside_right_container .box{
+    padding: 55px 20px 0px 20px;
+    margin-top: 200px;
+}
+
+.fifth_container .below_container .inside_right_container .box h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.fifth_container .below_container .inside_right_container .box a{
+    text-decoration: none;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.fifth_container .below_container .inside_right_container .box a img{
+   padding-right: 10px;
+}
+
+
+.fifth_container .below_container .inside_right_container .box p{
+    text-decoration: none;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    margin-bottom: 5px;
+    color: white;
+}
+
+@media screen and (max-width:  850px) {
+    .fifth_container{
+        background-image: url("../homework/images/Bg\ Shape\ footer\ 2@2x.png"), url("../homework/images/Bg\ Shape\ footer\ 1@2x.png");
+        background-repeat: no-repeat, no-repeat;
+        background-size: 1500px 1200px, 1800px 1800px;
+        background-position: -350px -135px, -833px -380px;
+    }
+
+    .fifth_container .below_container .inside_left_container .first_box{
+        display: flex;
+    }
+
+    .fifth_container .below_container .inside_left_container .first_box .icon_box span{
+        display: block;
+    }
+
+    .fifth_container .below_container .inside_left_container .first_box h3{
+        font-size: 3vw;
+    }
+
+    .fifth_container .below_container .inside_right_container{
+        display: flex;
+        flex-direction: column;     
+        justify-content: center;   
+        margin-top: 180px;
+    }
+
+    .fifth_container .below_container .inside_right_container .box{
+        margin: 0px 0px;
+        padding-top: 0px;
+    }
+
+    .fifth_container .below_container .inside_right_container .box h4{
+        margin-bottom: 5px;
+    }
+    
+    .fifth_container .below_container .inside_right_container .box .a_container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fifth_container .below_container .inside_right_container .box .a_container a{
+        padding: 5px 15px 15px 0px;
+        width: 100%;
+        font-size: 2vw;
+    }
+
+    .fifth_container .below_container .inside_right_container .box .a_container p{
+        margin-top: 5px;
+        font-size: 2vw;
+        padding: 0px 15px 15px 0px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .fifth_container{
+        background-image: url("../homework/images/Bg\ Shape\ footer\ 2@2x.png"), url("../homework/images/Bg\ Shape\ footer\ 1@2x.png");
+        background-repeat: no-repeat, no-repeat;
+        background-size: 1500px 1200px, 1800px 1800px;
+        background-position: -350px -115px, -850px -350px;
+    }
+
+    .fifth_container .above_container .above_inside_container h4{
+        font-size: 3vw;
+    }
+    
+    .fifth_container .above_container .above_inside_container h5{
+        font-size: 3vw;
+    }
+
+    .fifth_container .above_container .below_inside_container form{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .fifth_container .above_container .below_inside_container form input[type=text]{
+        margin-top: 20px;
+        border: 10px;
+        width: 90%;
+    }
+    
+    .fifth_container .above_container .below_inside_container form input[type=submit]{
+        margin-top: 20px;
+    }
+
+    .fifth_container .below_container{
+        padding: 50px;
+        display: block;
+        
+    }
+
+    .fifth_container .below_container .inside_left_container .first_box{
+        display: block;
+    }
+
+    .fifth_container .below_container .inside_left_container .first_box .icon_box{
+        display: flex;
+    }
+
+    .fifth_container .below_container .inside_right_container{  
+        margin-top: 5px;
+    }
+
+    .fifth_container .below_container .inside_left_container{
+        margin-top: 100px;
+    }
+
+
+
+
+
+}
