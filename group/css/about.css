@@ -675,3 +675,13 @@ button:hover .button-text {
 }
 
 /*box6*/
+
+#font h1{
+    font-size: 96px;
+}
+
+
+@media screen and (max-width: 680px){
+#font h1{
+    font-size: 55px;
+}}

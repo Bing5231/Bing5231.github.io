@@ -1,5 +1,7 @@
 h1 {
     font-family: 'Mochiy Pop One';
+    font-size: 96px;
+    color: white;
 }
 
 h3 {
@@ -7,11 +9,13 @@ h3 {
 }
 
 p { 
+
     font-weight: 600;
     font-size: 32px;
     color: #B57272;
     font-family: 'Quicksand';
 }
+
 
 /* Contact Us AND Submit Button*/
 .orange-button {
@@ -405,3 +409,13 @@ button:hover .button-text {
     }
     
 /*box4*/
+
+#font h1{
+    font-size: 96px;
+}
+
+
+@media screen and (max-width: 680px){
+#font h1{
+    font-size: 35px;
+}}
