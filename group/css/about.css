@@ -200,7 +200,7 @@ button:hover .button-text {
 /*learn more button*/
 
 #toppic {
-    height: 700px;
+    height: 500px;
     background-image: url(../images/aboutoppic-min.png);
     background-repeat: no-repeat;
     background-size: cover;

@@ -301,7 +301,10 @@ button:hover .button-text {
     }
     
     p {
+        font-weight: 600;
         font-size: 24px;
+        color: #B57272;
+        font-family: 'Quicksand';
     }
 
     #hmdays {

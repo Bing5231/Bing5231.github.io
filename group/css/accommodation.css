@@ -9,7 +9,6 @@ h3 {
 }
 
 p { 
-
     font-weight: 600;
     font-size: 32px;
     color: #B57272;
@@ -252,6 +251,11 @@ button:hover .button-text {
     }
 
     @media screen and (max-width: 680px){
+        h3 {
+            font-size: 26px;
+            font-family: 'Mochiy Pop One';
+        }
+        
         p{
             font-weight: 600;
             font-size: 20px;
@@ -324,6 +328,15 @@ button:hover .button-text {
         justify-content: center;
     }
 
+    @media screen and (max-width: 1180px){
+        p{
+            font-weight: 600;
+            font-size: 24px;
+            color: #B57272;
+            font-family: 'Quicksand';
+        }
+    }
+    
     @media screen and (max-width: 680px){
         .box2{
             width: 100%;
@@ -419,3 +432,8 @@ button:hover .button-text {
 #font h1{
     font-size: 35px;
 }}
+
+@media screen and (max-width: 780px ){
+    #font h1{
+        font-size: 55px;
+    }}
