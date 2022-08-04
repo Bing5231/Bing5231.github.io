@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Resume v7.0.5 (https://startbootstrap.com/theme/resume)
@@ -69,6 +70,8 @@
 *::after {
   box-sizing: border-box;
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -311,7 +314,7 @@ table {
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #6c757d;
+  color: #ffffff;
   text-align: left;
 }
 
@@ -594,7 +597,7 @@ progress {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: #f7f7f7;
 }
 .blockquote-footer::before {
   content: "— ";
@@ -625,7 +628,7 @@ progress {
 
 .figure-caption {
   font-size: 0.875em;
-  color: #6c757d;
+  color: #ffffff;
 }
 
 .container,
@@ -2184,7 +2187,7 @@ progress {
 .form-text {
   margin-top: 0.25rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: #ffffff;
 }
 
 .form-control {
@@ -11407,7 +11410,7 @@ p.lead {
 }
 
 section.resume-section {
-  background-image: url(../week2/images/93596357_p0_master1200.jpg);
+  background-image: url(../week2/images/misanwu.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -11433,4 +11436,9 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.intro{
+  color: orangered;
+  font-size: larger;
 }
