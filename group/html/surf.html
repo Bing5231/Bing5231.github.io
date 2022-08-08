@@ -8,11 +8,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../css/surf.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mochiy Pop One">
+    <link href="../css/same.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gothic A1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
-        <link rel="icon" type="image/x-icon" href="../images/logo.png" />
     <script src="https://kit.fontawesome.com/91b33330fa.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
     </script>
@@ -25,7 +24,7 @@
         <div class="container-fluid position-relative p-0" id="toppic">
             <nav class="navbar navbar-expand-lg z-index-3 py-1 bg-secondary bg-opacity-50">
                 <div class="container">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.html">
                         <img src="../images/logo.png" width="100px" class="d-inline-block align-text-top">
                     </a>
 
@@ -38,57 +37,72 @@
                         <ul class="navbar-nav navbar-nav-hover mx-auto">
                             <li class="nav-item mx-2">
                                 <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
-                                    role="button">
+                                    role="button" href="index.html">
                                     Home
                                 </a>
                             </li>
 
                             <li class="nav-item dropdown dropdown-hover mx-2">
-                                <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center dropdown-toggle text-white"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    About
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">History</a></li>
-                                </ul>
+                                <div class="btn-group">
+                                    <button class="btn text-white border-0" type="button" >
+                                        <a class="text-decoration-none text-white" href="about.html">About</a>
+                                    </button>
+                                    <button type="button"
+                                        class="btn dropdown-toggle dropdown-toggle-split text-white border-0"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="history.html">History</a></li>
+                                    </ul>
+                                </div>
                             </li>
 
                             <li class="nav-item mx-2">
                                 <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
-                                    role="button">
+                                    role="button" href="accommodation.html">
                                     Accommodation
                                 </a>
                             </li>
 
                             <li class="nav-item dropdown dropdown-hover mx-2">
-                                <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center dropdown-toggle text-white"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Activities
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Kayak</a></li>
-                                    <li><a class="dropdown-item" href="#">Suft</a></li>
-                                    <li><a class="dropdown-item" href="#">Snorkeling</a></li>
-                                </ul>
+                                <div class="btn-group">
+                                    <button class="btn text-white border-0" type="button" >
+                                        <a class="text-decoration-none text-white" href="accommodation.html">Activities</a>
+                                    </button>
+                                    <button type="button"
+                                        class="btn dropdown-toggle dropdown-toggle-split text-white border-0"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="kayak.html">Kayak</a></li>
+                                        <li><a class="dropdown-item" href="surf.html">Suft</a></li>
+                                        <li><a class="dropdown-item" href="snorkeling.html">Snorkeling</a></li>
+                                    </ul>
+                                </div>
                             </li>
 
                             <li class="nav-item mx-2">
                                 <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
-                                    role="button">
+                                    role="button" href="food.html">
                                     Food
                                 </a>
                             </li>
 
                             <li class="nav-item dropdown dropdown-hover mx-2">
-                                <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center dropdown-toggle text-white"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Places
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Vagan</a></li>
+                                <div class="btn-group">
+                                    <button class="btn text-white border-0" type="button" >
+                                        <a class="text-decoration-none text-white" href="places.html">Places</a>
+                                    </button>
+                                    <button type="button"
+                                        class="btn dropdown-toggle dropdown-toggle-split text-white border-0"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Vagan</a></li>
                                     <li><a class="dropdown-item" href="#">Vestvågøy</a></li>
-                                    <li><a class="dropdown-item" href="#">Flakstad</a></li>
-                                </ul>
+                                    <li><a class="dropdown-item" href="flakstad.html">Flakstad</a></li>
+                                    </ul>
+                                </div>
                             </li>
                         </ul>
 
@@ -100,293 +114,263 @@
                     </div>
                 </div>
             </nav>
+            
             <div class="position-absolute top-50 start-50 translate-middle bg-secondary bg-opacity-50 p-3">
-                <h1 class="text-white">Surf</h1>
+                <h1 class="text-white text-center">Surf</h1>
             </div>
-</div>
-            <div class="container-fluid py-5 my-3">
-        <h3 class="text-center p-3">Surf <br> -Lofoten Island- </h3>
-        <img src="../images/surf5.jpg"
-            class="container rounded mx-auto d-blockcontainer col-sm-8 col-lg-10 d-flex justify-content-center" />
+            <div class="container_mouse position-absolute bottom-0 start-50" id="mouse">
+                <span class="mouse-btn">
+                    <a href="#content"><span class="mouse-scroll"></span></a>
+                </span>
+            </div>
+        </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid my-3" id="content">
+            <h3 class="text-center p-3">Unstad Arctic Surf<br> -Lofoten Island- </h3>
+            <img src="../images/surf5.jpg"
+                class="container rounded mx-auto d-blockcontainer col-sm-8 col-lg-10 d-flex justify-content-center w-100" />
+
+            <div class="container">
+                <div class="row d-flex flex-wrap pt-3">
+                    <div class="col-lg-12 py-3 align-items-center d-flex">
+                        <div class="col">
+                            <h3 class="text-center">About</h3>
+                            <p class="text-center">Take home a photo of you surfing in-between mountains, above the
+                                arctic circle, in the most
+                                beautiful place in the world!
+
+                            <p class="text-center">Unstad Arctic Surf – Beginner Surf Lesson with Photographer.</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
             <div class="row my-3 d-flex flex-wrap">
                 <div class="col-lg-6 py-3">
-                    <h3 class="text-center pt-5">About</h3>
+                    <img src="../images/surf7.png" class="img-fluid mx-auto d-block" />
                 </div>
-                <div class="col-lg-5 py-3 align-items-center d-flex">
+                <div class="col-lg-6 py-3 align-items-center d-flex">
                     <div class="col">
+                        <h3>Our Photographer</h3>
+                        <p>We have a photographer who has been freelancing for over 10 years and specialises in surf
+                            photography. Our photographer is there to capture your whole experience at Unstad Arctic
+                            Surf. Take home life long memories of you surfing in-between mountains, above the arctic
+                            circle, in the most beautiful place in the world!</p>
+                    </div>
+                </div>
+            </div>
 
-                        <p>Take home a photo of you surfing in-between mountains, above the arctic circle, in the most
-                            beautiful place in the world!
+            <div class="row d-flex flex-wrap-reverse my-3">
+                <div class="col-lg-6 py-3 align-items-center d-flex">
+                    <div class="col">
+                        <h3>Lessons</h3>
+                        <p>Learn the basic surfing fundamentals in a step-by-step surf lesson taught by certified
+                            instructors at Unstad Arctic Surf. Unstad is the perfect backdrop to learn with friendly
+                            waves, whilst the more advanced surfers can enjoy world class waves on the surf breaks
+                            further out.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-3">
+                    <img src="../images/surf3.jpg" class="img-fluid mx-auto d-block" />
+                </div>
+            </div>
+        </div>
 
-                            <br>Unstad Arctic Surf – Beginner Surf Lesson with Photographer.
+        <div class="container">
+            <div class="row my-3 d-flex justify-content-center">
+                <div class="col-lg-12 py-3">
+                    <h3 class="container d-flex">We pride ourselves on our surf lessons and are teaching methods
+                        guarantee success!</h3>
+
+                    <div class="row">
+                        <img src="../images/surf.jpg" class="img-fluid mx-auto d-block col-md-6 rounded-5 my-2" />
+                        <img src="../images/surf2.jpg" class="img-fluid mx-auto d-block col-md-6 rounded-5 my-2" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Button trigger modal -->
+                    <button class="col btn col-xs col-sm-6 col-lg-4 mx-auto align-items-center" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+
+                        <p class="text-decoration-underline pt-3">CLICK TO SEE WHAT’S INCLUDED</p>
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Surf Lessons</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    • Daily surf lessons 7 day’s a week, 365 days a year<br>
+                                    • Qualified and experienced instructors<br>
+                                    • Latest wetsuits and surfboards<br>
+                                    • Modern indoor changing rooms<br>
+                                    • Hot shower facilities for after your surf<br>
+                                    • Enjoy our brand new sauna post surf<br>
+                                    • Access to ALL photos taken by our professional photographer</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid py-5 my-3">
+            <img src="../images/surf4.jpg"
+                class="container w-75 rounded-5 mx-auto d-blockcontainer col-sm-8 col-lg-10 d-flex justify-content-center" />
+        </div>
+
+        <div class="accordion w-75 mx-auto" id="accordionExample">
+            <h3 class="d-flex justify-content-center"> Surf FAQ</h3>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <p>Session</p>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p><strong>Join Our Morning or Afternoon Session.</strong> Please note lesson times are tide
+                            dependant
+                            and can change. We will comfirm the times via email or text with you.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <p>Duration</p>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Our lesson usally is <strong>3-4 hours</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <p>Price</p>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p> <strong>Price is 1690 NOK Per Person</strong> <br>*The price is includes All of the above.
                         </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container-fluid px-5">
-        <div class="row my-3 d-flex flex-wrap">
-            <div class="col-lg-6 py-3">
-                <img src="../images/surf7.png" class="img-fluid mx-auto d-block" />
-            </div>
-            <div class="col-lg-6 py-3 align-items-center d-flex">
-                <div class="col">
-                    <h3>Our Photographer</h3>
-                    <p>We have a photographer who has been freelancing for over 10 years and specialises in surf
-                        photography. Our photographer is there to capture your whole experience at Unstad Arctic
-                        Surf. Take home life long memories of you surfing in-between mountains, above the arctic
-                        circle, in the most beautiful place in the world!</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row d-flex flex-wrap-reverse my-3">
-            <div class="col-lg-6 py-3 align-items-center d-flex">
-                <div class="col">
-                    <h3 class="container d-flex flex-wrap">Lessons</h3>
-                    <p>Learn the basic surfing fundamentals in a step-by-step surf lesson taught by certified
-                        instructors at Unstad Arctic Surf. Unstad is the perfect backdrop to learn with friendly
-                        waves, whilst the more advanced surfers can enjoy world class waves on the surf breaks
-                        further out.</p>
-                </div>
-            </div>
-            <div class="col-lg-6 py-3">
-                <img src="../images/surf3.jpg" class="img-fluid mx-auto d-block" />
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row my-3 d-flex justify-content-center">
-            <div class="col-lg-10 py-3">
-                <h3 class="container d-flex">We pride ourselves on our surf lessons and are teaching methods
-                    guarantee success!</h3>
-
-                <div class="row">
-                    <img src="../images/surf.jpg" class="img-fluid mx-auto d-block col-md-6 rounded-5 my-2" />
-                    <img src="../images/surf2.jpg" class="img-fluid mx-auto d-block col-md-6 rounded-5 my-2" />
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <p>Breakfast</p>
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>We serve a large breakfast buffet in the cafe/restaurant area. During the high season we
+                            serve
+                            breakfast every morning from <strong>9-10am.</strong> During the low season it is upon
+                            request.
+                            Speak to one of our friendly staff to book your breakfast.</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="row">
-                <!-- Button trigger modal -->
-                <button class="col btn btn-info col-xs col-sm-6 col-lg-4 mx-auto" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-
-                    CLICK TO SEE WHAT’S INCLUDED
-                </button>
-            </div>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Surf Lessons</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            • Daily surf lessons 7 day’s a week, 365 days a year<br>
-                            • Qualified and experienced instructors<br>
-                            • Latest wetsuits and surfboards<br>
-                            • Modern indoor changing rooms<br>
-                            • Hot shower facilities for after your surf<br>
-                            • Enjoy our brand new sauna post surf<br>
-                            • Access to ALL photos taken by our professional photographer
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
-                        </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <p>Do I need to reserve my surf rental?</p>
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>If its just you and a few friends you will be fine. If you are a large group, then you may
+                            want to
+                            call us to make sure we have everything ready when you come in.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-
-
-
-
-    <div class="container-fluid py-5 my-3">
-        <img src="../images/surf4.jpg"
-            class="container w-75 rounded-5 mx-auto d-blockcontainer col-sm-8 col-lg-10 d-flex justify-content-center" />
-    </div>
-
-    <div class="accordion w-75 mx-auto" id="accordionExample">
-        <h3 class="d-flex justify-content-center"> Surf FAQ</h3>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
-                    Session
-                </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>Join Our Morning or Afternoon Session.</strong> Please note lesson times are tide dependant
-                    and can change. We will comfirm the times via email or text with you.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Duration
-                </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    Our lesson usally is <strong>3-4 hours</strong>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Price
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>Price is 1690 NOK Per Person</strong> <br>*The price is includes All of the above.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Breakfast
-                </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    We serve a large breakfast buffet in the cafe/restaurant area. During the high season we serve
-                    breakfast every morning from <strong>9-10am.</strong> During the low season it is upon request.
-                    Speak to one of our friendly staff to book your breakfast.
-                </div>
-            </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    Do I need to reserve my surf rental?
-                </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    If its just you and a few friends you will be fine. If you are a large group, then you may want to
-                    call us to make sure we have everything ready when you come in.
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-    
-
-
-
-    <script>
-    const myModal = document.getElementById('myModal')
-    const myInput = document.getElementById('myInput')
-    myModal.addEventListener('shown.bs.modal', () => {
-    myInput.focus()
-    })
-    </script>
-        
-
-                <div class="container-fluid d-flex pb-5 row m-0" id="bg-color">
+        <div class="container-fluid d-flex pb-5 row m-0" id="bg-color">
             <div class="col-sm-4 pt-5 d-flex justify-content-center">
-                <img src="../images/footerlogo.png" class="img-fluid" >
+                <img src="../images/logo.png">
             </div>
 
             <div class="col-sm-4 pt-5">
-                <h3>Dicover Destination</h3>
-                <ul class="list-unstyled">
-                    <li class="p-2">
-                        <a href="#" class="text-decoration-none text-black">Home</a>
-                    </li>
-
+                <h3>Contact us</h3>
+                <ul>
                     <li>
-                        <div class="btn-group dropend" id="button">
-                            <a href="#" class="p-2 text-decoration-none text-black">About</a>
-                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                            </button>
-                            <ul class="dropdown-menu text-decoration-none" id="menu">
-                                <li><a href="#" class="text-decoration-none">History</a></li>
-                            </ul>
-                        </div>
+                        <a href="https://www.google.com.my/maps/place/New+Era+University+College/@2.9866042,101.7885382,17z/data=!3m1!4b1!4m5!3m4!1s0x31cdcb841d3762c7:0x4dc97330d731c530!8m2!3d2.9865989!4d101.7927654"
+                            target="_blank" class="text-decoration-none text-black p-2">24 Shipley St.Arvada, CO
+                            80003</a>
                     </li>
-
-                    <li class="p-2"><a href="#" class="text-decoration-none text-black">Accommdation</a></li>
-
                     <li>
-                        <div class="btn-group dropend" id="button1">
-                            <a href="#" class="p-2 text-decoration-none text-black">Activities</a>
-                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                            </button>
-                            <ul class="dropdown-menu" id="menu1">
-                                <li><a href="#" class="text-decoration-none">Kayak</a></li>
-                                <li><a href="#" class="text-decoration-none">Surf</a></li>
-                                <li><a href="#" class="text-decoration-none">Snorkeling</a></li>
-                            </ul>
-                        </div>
+                        <a href="tel:09378493810" class="text-decoration-none text-black p-2">+09378493810</a>
                     </li>
-
-                    <li class="p-2"><a href="#" class="text-decoration-none text-black">Food</a></li>
-
                     <li>
-                        <div class="btn-group dropend" id="button2">
-                            <a href="#" class="p-2 text-decoration-none text-black">Places</a>
-                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                            </button>
-                            <ul class="dropdown-menu" id="menu2">
-                                <li><a href="#" class="text-decoration-none">Vagan</a></li>
-                                <li><a href="#" class="text-decoration-none">Vestvagay</a></li>
-                                <li><a href="#" class="text-decoration-none">Flakstad</a></li>
-                            </ul>
-                        </div>
+                        <a href="mailto:tabi1234@gmail.com"
+                            class="text-decoration-none text-black p-2">tabi1234@gmail.com</a>
                     </li>
                 </ul>
             </div>
 
             <div class="col-sm-4 pt-5">
-                <h3>Contact us</h3>
-                <p>24 Shipley St.Arvada, CO 80003</p>
-                <p>09378493810</p>
-                <p>tabi1234@gmail.com</p>
-
                 <h3>Social media</h3>
-                <a href="#" target="_blank" class="text-white text-decoration-none fs-2"><i
-                        class="fab fa-instagram"></i></a>
-                <a href="#" target="_blank" class="text-white text-decoration-none fs-2"><i
-                        class="fab fa-facebook"></i></a>
-                <a href="#" target="_blank" class="text-white text-decoration-none fs-2"><i
-                        class="fab fa-twitter"></i></a>
+                <ul style="list-style-type: none;">
+                    <li>
+                        <a href="https://www.instagram.com/visit_lofoten/?hl=en" target="_blank"
+                            class="text-black text-decoration-none fs-2 p-2"><i class="fab fa-instagram"></i>
+                            Instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/visitlofoten/" target="_blank"
+                            class="text-black text-decoration-none fs-2 p-2"><i class="fab fa-facebook">
+                                Facebook</i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/amazinglofoten" target="_blank"
+                            class="text-black text-decoration-none fs-2 p-2"><i class="fab fa-twitter p-2">
+                                Twitter</i></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
+
+    <script>
+        const myModal = document.getElementById('myModal')
+        const myInput = document.getElementById('myInput')
+        myModal.addEventListener('shown.bs.modal', () => {
+            myInput.focus()
+        })
+    </script>
+
 </body>
 
 </html>

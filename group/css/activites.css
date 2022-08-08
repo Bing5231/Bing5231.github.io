@@ -3,29 +3,12 @@
 /*learn more button*/
 
 #toppic {
-    height: 500px;
+    height: 600px;
     background-image: url(../images/thingstodo1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 
-}
-h1 {
-    font-family: 'Mochiy Pop One';
-    font-size: 96px;
-    color: white;
-}
-
-h3 {
-    font-family: 'Mochiy Pop One';
-    font-size: 36px;
-    color: #041562;
-}
-
-p {
-    font-family: 'Quicksand';
-    font-size: 32px;
-    color: #B57272;
 }
 
 #container {

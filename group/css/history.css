@@ -1,5 +1,5 @@
 #toppic {
-    height: 500px;
+    height: 600px;
     background-image: url(../images/lofoten1\(\history\).png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,23 +11,6 @@
         flex-wrap: wrap;
 }
 
-h1 {
-    font-family: 'Mochiy Pop One';
-    font-size: 96px;
-    color: white;
-}
-
-h3 {
-    font-family: 'Mochiy Pop One';
-    font-size: 36px;
-    color: #041562;
-}
-
-p {
-    font-family: 'Quicksand';
-    font-size: 32px;
-    color: #B57272;
-}
 
 #container {
   max-width: 1600px;  
@@ -222,87 +205,3 @@ button:hover .button-text {
     font-size: 96px;
 }
 
-/*footer*/
-#bg-color {
-    background-image: linear-gradient(#FFFFFF, #5BBCBC);
-}
-
-.box1 {
-    display: flex;
-    align-items: center;
-}
-
-.box2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.box2 a {
-    padding: 5px;
-}
-
-#button {
-    width: 10%;
-}
-
-#button :hover {
-    border: none;
-}
-
-#button1 {
-    width: 10%;
-}
-
-#button1 :hover {
-    border: none;
-}
-
-#button2 {
-    width: 10%;
-}
-
-#button2 :hover {
-    border: none;
-}
-
-#menu {
-    background: none;
-}
-
-#menu1 {
-    background: none;
-}
-
-#menu2 {
-    background: none;
-}
-
-/*footer*/
-
-
-
-@media screen and (max-width: 1180px) {
-    h3 {
-        font-size: 32px;
-    }
-    
-    p {
-        font-size: 24px;
-    }
-
-}
-
-@media screen and (max-width: 600px) {
-    #toppic h1{
-        font-size: 55px;
-    }
-
-    h3 {
-        font-size: 26px;
-    }
-    
-    p {
-        font-size: 20px;
-    }
-
-}
