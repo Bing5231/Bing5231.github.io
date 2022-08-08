@@ -1,5 +1,5 @@
 #toppic {
-    height: 600px;
+    height: 500px;
     background-image: url(../images/lofoten1\(accommodation\).png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,11 +37,35 @@
         flex-direction: column;
     }
 
-
     @media screen and (max-width: 1180px){
         .top{
             margin-bottom: 50px;
         }
+
+        #long{
+            width: 50%;
+        }
+
+        
+    }
+
+    @media screen and (max-width: 770px){
+        #top{
+            display: none;
+        }
+
+        #top1{
+            display: none;
+        }
+
+        #bottom{
+            display: none;
+        }
+
+        #bottom1{
+            display: none;
+        }
+
     }
 
 
@@ -71,8 +95,20 @@
             display: none;
         }
 
+        #top1{
+            display: none;
+        }
+
         #bottom{
             display: none;
+        }
+
+        #bottom1{
+            display: none;
+        }
+
+        #long{
+            width: 60%;
         }
     }
 
@@ -113,6 +149,22 @@
         display: flex;
         justify-content: center;
     }
+
+    #center1{
+        display: flex;
+        justify-content: center;
+    }
+
+    #center2{
+        display: flex;
+        justify-content: center;
+    }
+
+    #center3{
+        display: flex;
+        justify-content: center;
+    }
+
 
     @media screen and (max-width: 680px){
         .box2{
@@ -214,3 +266,16 @@
         }
     }
     
+    @media screen and (max-width: 680px){
+       #toppic h1{
+        font-size: 40px;
+
+       }
+    }
+
+    @media screen and (max-width: 1180px){
+        #toppic h1{
+         font-size: 80px;
+ 
+        }
+     }
