@@ -9,6 +9,7 @@
 #tips {
     height: 50vh;
     background-image: url(../images/food/food4.png);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
