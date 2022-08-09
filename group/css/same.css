@@ -267,3 +267,51 @@ button:hover .button-text {
 a:link {
     text-decoration: none;
   }
+
+  .read-more-btn {  
+    padding: 15px 60px;  
+    background-color:  rgb(13, 33, 119);   
+    color: rgb(255, 255, 255);  
+    border-radius: 30px;  
+    font-size: 20px;  
+    box-shadow: 0px 5px 5px 5px rgb(22 5 207 / 10%);
+    cursor: pointer;  
+   }  
+
+   .read-more-btn:hover {  
+    background-color: rgb(109, 167, 167);  
+    color: rgb(0, 0, 0);  
+    border-radius: 30px;  
+   } 
+
+   .read-more-btn1 {  
+    padding: 15px 60px;  
+    background-color:  rgb(13, 33, 119);   
+    color: rgb(255, 255, 255);  
+    border-radius: 30px;  
+    font-size: 20px;  
+    box-shadow: 0px 5px 5px 5px rgb(22 5 207 / 10%);
+    cursor: pointer;  
+   }  
+
+   .read-more-btn1:hover {  
+    background-color: rgb(109, 167, 167);  
+    color: rgb(0, 0, 0);  
+    border-radius: 30px;  
+   } 
+
+   .read-more-btn2 {  
+    padding: 15px 60px;  
+    background-color:  rgb(13, 33, 119);   
+    color: rgb(255, 255, 255);  
+    border-radius: 30px;  
+    font-size: 20px;  
+    box-shadow: 0px 5px 5px 5px rgb(22 5 207 / 10%);
+    cursor: pointer;  
+   }  
+
+   .read-more-btn2:hover {  
+    background-color: rgb(109, 167, 167);  
+    color: rgb(0, 0, 0);  
+    border-radius: 30px;  
+   }
