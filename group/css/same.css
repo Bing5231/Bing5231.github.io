@@ -263,3 +263,7 @@ button:hover .button-text {
   }
 
 }
+
+a:link {
+    text-decoration: none;
+  }
