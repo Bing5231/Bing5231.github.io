@@ -267,8 +267,8 @@
     }
     
     @media screen and (max-width: 680px){
-       #toppic h1{
-        font-size: 40px;
+       #toppic h1{ 
+        font-size: 40px !important;
 
        }
     }
