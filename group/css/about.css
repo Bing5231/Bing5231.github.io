@@ -44,22 +44,6 @@
 }
 
 @media screen and (max-width: 680px){
-    
-    h1 {
-        font-family: 'Mochiy Pop One';
-    }
-    
-    h3 {
-        font-size: 26px;
-        font-family: 'Mochiy Pop One';
-    }
-
-    p{
-        font-weight: 600;
-        font-size: 20px;
-        color: #B57272;
-        font-family: 'Quicksand';
-    }
 
     .box1{
         display: flex;
@@ -106,22 +90,6 @@
 }
 
 @media screen and (max-width: 1180px){
-
-    h1 {
-        font-family: 'Mochiy Pop One';
-    }
-    
-    h3 {
-        font-size: 32px;
-        font-family: 'Mochiy Pop One';
-    }
-
-    p{
-        font-weight: 600;
-        font-size: 24px;
-        color: #B57272;
-        font-family: 'Quicksand';
-    }
 
     .box3{
         width: 100%;
@@ -204,12 +172,6 @@
 }
 
 @media screen and (max-width: 1180px){
-    p{
-        font-weight: 600;
-        font-size: 24px;
-        color: #B57272;
-        font-family: 'Quicksand';
-    }
 
     .box5{
         width: 100%;

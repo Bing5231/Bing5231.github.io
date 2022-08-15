@@ -28,33 +28,109 @@
                         <img src="../images/logo.png" width="100px" class="d-inline-block align-text-top">
                     </a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navbarNavDropdown">
+
+                    <div class="offcanvas offcanvas-start d-xl-none d-lg-none w-100" tabindex="-1"
+                        id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="background-image: linear-gradient(to right, #FFFFFF, #5BBCBC);">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex justify-content-center">
+                            <ul class="navbar-nav navbar-nav-hover mx-auto">
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-black"
+                                        role="button" href="about.html">
+                                        About
+                                    </a>
+                                </li>
+
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-black"
+                                        role="button" href="history.html">
+                                        History
+                                    </a>
+                                </li>
+
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-black"
+                                        role="button" href="accommodation.html">
+                                        Accommodation
+                                    </a>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <div class="btn-group">
+                                        <button class="btn text-black border-0" type="button">
+                                            <a class="text-decoration-none text-black"
+                                                href="activities.html">Activities</a>
+                                        </button>
+                                        <button type="button"
+                                            class="btn dropdown-toggle dropdown-toggle-split border-0"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item text-black" href="kayak.html">Kayak</a></li>
+                                            <li><a class="dropdown-item text-black" href="surf.html">Surf</a></li>
+                                            <li><a class="dropdown-item text-black" href="snorkeling.html">Snorkeling</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-black"
+                                        role="button" href="food.html">
+                                        Food
+                                    </a>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <div class="btn-group">
+                                        <button class="btn text-black border-0" type="button">
+                                            <a class="text-decoration-none text-black" href="places.html">Places</a>
+                                        </button>
+                                        <button type="button"
+                                            class="btn dropdown-toggle dropdown-toggle-split border-0"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item text-black" href="trip.html">Plan Your Trip</a></li>
+                                            <li><a class="dropdown-item text-black" href="vagan.html">Vagan</a></li>
+                                            <li><a class="dropdown-item text-black" href="vestagoy.html">Vestvågøy</a></li>
+                                            <li><a class="dropdown-item text-black" href="flakstad.html">Flakstad</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item d-lg-block m-3 pb-3">
+                                    <button class="orange-button">
+                                        <a href="contact.html" class="text-white">
+                                            <span class="circle" aria-hidden="true">
+                                                <span class="icon arrow"></span>
+                                            </span>
+                                            Contact us</a></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0">
                         <ul class="navbar-nav navbar-nav-hover mx-auto">
                             <li class="nav-item mx-2">
                                 <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
-                                    role="button" href="index.html">
-                                    Home
+                                    role="button" href="about.html">
+                                    About
                                 </a>
                             </li>
 
-                            <li class="nav-item dropdown dropdown-hover mx-2">
-                                <div class="btn-group">
-                                    <button class="btn text-white border-0" type="button" >
-                                        <a class="text-decoration-none text-white" href="about.html">About</a>
-                                    </button>
-                                    <button type="button"
-                                        class="btn dropdown-toggle dropdown-toggle-split text-white border-0"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="history.html">History</a></li>
-                                    </ul>
-                                </div>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
+                                    role="button" href="history.html">
+                                    History
+                                </a>
                             </li>
 
                             <li class="nav-item mx-2">
@@ -66,7 +142,7 @@
 
                             <li class="nav-item dropdown dropdown-hover mx-2">
                                 <div class="btn-group">
-                                    <button class="btn text-white border-0" type="button" >
+                                    <button class="btn text-white border-0" type="button">
                                         <a class="text-decoration-none text-white" href="activities.html">Activities</a>
                                     </button>
                                     <button type="button"
@@ -90,7 +166,7 @@
 
                             <li class="nav-item dropdown dropdown-hover mx-2">
                                 <div class="btn-group">
-                                    <button class="btn text-white border-0" type="button" >
+                                    <button class="btn text-white border-0" type="button">
                                         <a class="text-decoration-none text-white" href="places.html">Places</a>
                                     </button>
                                     <button type="button"
@@ -100,8 +176,8 @@
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="trip.html">Plan Your Trip</a></li>
                                         <li><a class="dropdown-item" href="vagan.html">Vagan</a></li>
-                                    <li><a class="dropdown-item" href="vestagoy.html">Vestvågøy</a></li>
-                                    <li><a class="dropdown-item" href="flakstad.html">Flakstad</a></li>
+                                        <li><a class="dropdown-item" href="vestagoy.html">Vestvågøy</a></li>
+                                        <li><a class="dropdown-item" href="flakstad.html">Flakstad</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -120,9 +196,10 @@
                     </div>
                 </div>
             </nav>
-            
-            <div class="position-absolute top-50 start-50 translate-middle bg-secondary bg-opacity-50 p-3">
-                <h1 class="text-white text-center">history</h1>
+
+            <div
+                class="position-absolute top-50 start-50 translate-middle bg-secondary bg-opacity-50 p-3 d-none d-lg-block d-xl-block">
+                <h1 class="text-white text-center">History</h1>
             </div>
         </div>
 
@@ -213,7 +290,7 @@
             <div class="row flex-lg-row-reverse align-items-center  mt-3">
                 <div class="container  col-10 col-sm-8 col-lg-6 d-flex justify-content-center">
                     <img src="../images/lofoten6(history).png"
-                        class="rounded-4 mx-lg-auto img-fluid d-flex justify-content-center" alt="Bootstrap Themes"
+                        class=" mx-lg-auto img-fluid d-flex justify-content-center" alt="Bootstrap Themes"
                         width="700" height="500" loading="lazy">
                 </div>
 
@@ -227,13 +304,12 @@
                 </div>
             </div>
 
-            <div class="row flex-lg-row-reverse align-items-center  mt-3">
+            <div class="row flex-wrap align-items-center  mt-3">
                 <div class="container  col-10 col-sm-8 col-lg-6 d-flex justify-content-center">
                     <img src="../images/lofoten7(history).png"
-                        class="rounded-4 mx-lg-auto img-fluid d-flex justify-content-center" alt="Bootstrap Themes"
+                        class="mx-lg-auto img-fluid d-flex justify-content-center" alt="Bootstrap Themes"
                         width="700" height="500" loading="lazy">
                 </div>
-
                 <div class="col-lg-6">
                     <p class="lead container mt-3">People from far off places would travel across the waters to come to
                         the Lofoten Islands, so as to make the most of the fishing opportunities.The term ‘rorbu’ can be
@@ -244,7 +320,7 @@
             <div class="row flex-lg-row-reverse align-items-center  mt-3">
                 <div class="container  col-10 col-sm-8 col-lg-6 d-flex justify-content-center">
                     <img src="../images/lofoten8(history).png"
-                        class="rounded-4 mx-lg-auto img-fluid d-flex justify-content-center" alt="Bootstrap Themes"
+                        class="mx-lg-auto img-fluid d-flex justify-content-center" alt="Bootstrap Themes"
                         width="700" height="500" loading="lazy">
                 </div>
 
@@ -259,7 +335,7 @@
             <div class="col-sm-4 pt-5 d-flex justify-content-center">
                 <img src="../images/logo.png">
             </div>
-
+    
             <div class="col-sm-4 pt-5">
                 <h3>Contact us</h3>
                 <ul>
@@ -277,21 +353,23 @@
                     </li>
                 </ul>
             </div>
-
+    
             <div class="col-sm-4 pt-5">
                 <h3>Social media</h3>
                 <ul style="list-style-type: none;">
                     <li>
                         <a href="https://www.instagram.com/visit_lofoten/?hl=en" target="_blank"
-                        class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-instagram"></i> Instagram</a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/visitlofoten/" target="_blank"
-                        class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-facebook"> Facebook</i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/amazinglofoten" target="_blank"
-                        class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-twitter p-2"> Twitter</i></a>
+                            class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-instagram">
+                                Instagram</i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/visitlofoten/" target="_blank"
+                            class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-facebook">
+                                Facebook</i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/amazinglofoten" target="_blank"
+                            class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-twitter"> Twitter</i></a>
                     </li>
                 </ul>
             </div>

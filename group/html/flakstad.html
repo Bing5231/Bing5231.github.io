@@ -28,33 +28,109 @@
                         <img src="../images/logo.png" width="100px" class="d-inline-block align-text-top">
                     </a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navbarNavDropdown">
+
+                    <div class="offcanvas offcanvas-start d-xl-none d-lg-none w-100" tabindex="-1"
+                        id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="background-image: linear-gradient(to right, #FFFFFF, #5BBCBC);">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex justify-content-center">
+                            <ul class="navbar-nav navbar-nav-hover mx-auto">
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-black"
+                                        role="button" href="about.html">
+                                        About
+                                    </a>
+                                </li>
+
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-black"
+                                        role="button" href="history.html">
+                                        History
+                                    </a>
+                                </li>
+
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-black"
+                                        role="button" href="accommodation.html">
+                                        Accommodation
+                                    </a>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <div class="btn-group">
+                                        <button class="btn text-black border-0" type="button">
+                                            <a class="text-decoration-none text-black"
+                                                href="activities.html">Activities</a>
+                                        </button>
+                                        <button type="button"
+                                            class="btn dropdown-toggle dropdown-toggle-split border-0"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item text-black" href="kayak.html">Kayak</a></li>
+                                            <li><a class="dropdown-item text-black" href="surf.html">Surf</a></li>
+                                            <li><a class="dropdown-item text-black" href="snorkeling.html">Snorkeling</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-black"
+                                        role="button" href="food.html">
+                                        Food
+                                    </a>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2">
+                                    <div class="btn-group">
+                                        <button class="btn text-black border-0" type="button">
+                                            <a class="text-decoration-none text-black" href="places.html">Places</a>
+                                        </button>
+                                        <button type="button"
+                                            class="btn dropdown-toggle dropdown-toggle-split border-0"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item text-black" href="trip.html">Plan Your Trip</a></li>
+                                            <li><a class="dropdown-item text-black" href="vagan.html">Vagan</a></li>
+                                            <li><a class="dropdown-item text-black" href="vestagoy.html">Vestvågøy</a></li>
+                                            <li><a class="dropdown-item text-black" href="flakstad.html">Flakstad</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item d-lg-block m-3 pb-3">
+                                    <button class="orange-button">
+                                        <a href="contact.html" class="text-white">
+                                            <span class="circle" aria-hidden="true">
+                                                <span class="icon arrow"></span>
+                                            </span>
+                                            Contact us</a></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0">
                         <ul class="navbar-nav navbar-nav-hover mx-auto">
                             <li class="nav-item mx-2">
                                 <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
-                                    role="button" href="index.html">
-                                    Home
+                                    role="button" href="about.html">
+                                    About
                                 </a>
                             </li>
 
-                            <li class="nav-item dropdown dropdown-hover mx-2">
-                                <div class="btn-group">
-                                    <button class="btn text-white border-0" type="button" >
-                                        <a class="text-decoration-none text-white" href="about.html">About</a>
-                                    </button>
-                                    <button type="button"
-                                        class="btn dropdown-toggle dropdown-toggle-split text-white border-0"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="history.html">History</a></li>
-                                    </ul>
-                                </div>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
+                                    role="button" href="history.html">
+                                    History
+                                </a>
                             </li>
 
                             <li class="nav-item mx-2">
@@ -66,7 +142,7 @@
 
                             <li class="nav-item dropdown dropdown-hover mx-2">
                                 <div class="btn-group">
-                                    <button class="btn text-white border-0" type="button" >
+                                    <button class="btn text-white border-0" type="button">
                                         <a class="text-decoration-none text-white" href="activities.html">Activities</a>
                                     </button>
                                     <button type="button"
@@ -90,7 +166,7 @@
 
                             <li class="nav-item dropdown dropdown-hover mx-2">
                                 <div class="btn-group">
-                                    <button class="btn text-white border-0" type="button" >
+                                    <button class="btn text-white border-0" type="button">
                                         <a class="text-decoration-none text-white" href="places.html">Places</a>
                                     </button>
                                     <button type="button"
@@ -100,8 +176,8 @@
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="trip.html">Plan Your Trip</a></li>
                                         <li><a class="dropdown-item" href="vagan.html">Vagan</a></li>
-                                    <li><a class="dropdown-item" href="vestagoy.html">Vestvågøy</a></li>
-                                    <li><a class="dropdown-item" href="flakstad.html">Flakstad</a></li>
+                                        <li><a class="dropdown-item" href="vestagoy.html">Vestvågøy</a></li>
+                                        <li><a class="dropdown-item" href="flakstad.html">Flakstad</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -120,8 +196,9 @@
                     </div>
                 </div>
             </nav>
-            
-            <div class="position-absolute top-50 start-50 translate-middle bg-secondary bg-opacity-50 p-3">
+
+            <div
+                class="position-absolute top-50 start-50 translate-middle bg-secondary bg-opacity-50 p-3 d-none d-lg-block d-xl-block">
                 <h1 class="text-white text-center">Flakstad</h1>
             </div>
         </div>
@@ -130,42 +207,53 @@
             <h3 class="d-flex justify-content-center mt-5">Facts about Flakstad Municipality</h3>
             <div class="row flex-wrap align-items-center g-5 mt-3">
                 <div class="container col-10 col-sm-8 col-lg-6">
-                    <img src="../images/flakstad3.png" class="d-block mx-lg-auto img-fluid"
-                        width="700" height="500" loading="lazy">
+                    <img src="../images/flakstad3.png" class="d-block mx-lg-auto img-fluid" width="700" height="500"
+                        loading="lazy">
                 </div>
                 <div class="col-lg-6">
-                    <p class="text container">Flakstad municipality is located in West Lofoten, and consists of Flakstadøy and the northern part of Moskenesøy.<span class="dots"> ...</span> <span class="moreText"> Most of the 1280 inhabitants live in the five traditional fishing villages of Ramberg, Fredvang, Napp, Sund and Nusfjord.Nature invites to varied activities on land or water. Here you will find several galleries, artisans,museums, restaurants and accommodation. There are also opportunities for trips on the Lofoten Sea withone of the local fishing boats.</span></p>
-                    <button class="read-more-btn container d-flex justify-content-center w-25">Read More</button>
+                    <p class="text container px-5">Flakstad municipality is located in West Lofoten, and consists of
+                        Flakstadøy and the northern part of Moskenesøy. Most of the 1280 inhabitants live in the five
+                        traditional fishing villages of Ramberg, Fredvang, Napp, Sund and Nusfjord. Nature invites to
+                        varied activities on land or water. There are also opportunities for trips on the Lofoten Sea withone
+                        of the local fishing boats.</p>
                 </div>
             </div>
         </div>
-    
+
         <div class="container col-xxl-12 my-5">
             <div class="row flex-wrap-reverse align-items-center g-5 mt-3">
                 <div class="col-lg-6">
-                    <p class="text1 container">Flakstad is a municipality in Nordland county, Norway. It is part of the traditional district of the island group Lofoten. The administrative centre of the municipality is the village of Ramberg. Other villages include Fredvang, Napp, Nusfjord,  <span class="dots1"> ...</span> <span class="moreText1"> The municipality is located in the Lofoten Islands and comprises the entire island of Flakstadøya and the northern part of the island of Moskenesøya. The European route E10 highway runs across the whole municipality.</span></p>
-                    <button class="read-more-btn1 container d-flex justify-content-center w-25">Read More</button>
+                    <p class="text1 container px-5">Flakstad is a municipality in Nordland county, Norway. It is part of the
+                        traditional district of the island group Lofoten. Other villages include Fredvang, Napp, Nusfjord, The municipality is
+                        located in the Lofoten Islands and comprises the entire island of Flakstadøya and the northern
+                        part of the island of Moskenesøya. The European route E10 highway runs across the whole
+                        municipality.</p>
+
                 </div>
                 <div class="container col-10 col-sm-8 col-lg-6">
-                    <img src="../images/flakstad4.png" class="d-block mx-lg-auto img-fluid"
-                        width="700" height="500" loading="lazy">
+                    <img src="../images/flakstad4.png" class="d-block mx-lg-auto img-fluid" width="700" height="500"
+                        loading="lazy">
                 </div>
             </div>
         </div>
-    
+
         <div class="container col-xxl-12 pb-5">
             <div class="row flex-wrap align-items-center g-5 mt-3">
                 <div class="container col-10 col-sm-8 col-lg-6">
-                    <img src="../images/flakstad9.png" class="d-block mx-lg-auto img-fluid"
-                        width="700" height="500" loading="lazy">
+                    <img src="../images/flakstad9.png" class="d-block mx-lg-auto img-fluid" width="700" height="500"
+                        loading="lazy">
                 </div>
                 <div class="col-lg-6 ">
-                    <p class="text2 container">The 178-square-kilometre (69 sq mi) municipality is the 311th largest by area out of the 356 municipalities in Norway. <span class="dots2"> ...</span> <span class="moreText2">  Flakstad is the 317th most populous municipality in Norway with a population of 1,272. The municipality's population density is 7.5 inhabitants per square kilometre (19/sq mi) and its population has decreased by 7.6% over the previous 10-year period</span></p>
-                    <button class="read-more-btn2 container d-flex justify-content-center w-25">Read More</button>
+                    <p class="text2 container px-5">The 178-square-kilometre (69 sq mi) municipality is the 311th largest by
+                        area out of the 356 municipalities in Norway. Flakstad is the 317th most populous municipality
+                        in Norway with a population of 1,272. The municipality's population density is 7.5 inhabitants
+                        per square kilometre (19/sq mi) and its population has decreased by 7.6% over the previous
+                        10-year period.</p>
+
                 </div>
             </div>
         </div>
-        
+
         <div id="carouselExampleDark" class="carousel carousel-dark slide container " data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -178,41 +266,32 @@
                     aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner h-25">
-                <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="../images/flakstad5(slideshow).png" class="d-block w-100">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="../images/fredvang.jpg" class="d-block w-100">
                     <div class="carousel-caption d-md-block">
                         <h3 class="text-light">Fredvang</h3>
                     </div>
                 </div>
                 <div class="carousel-item h-25" data-bs-interval="3000">
-                    <img src="../images/flakstad6(slideshow).png" class="d-block w-100">
+                    <img src="../images/home/napp.jpeg" class="d-block w-100">
                     <div class="carousel-caption d-md-block">
                         <h3 class="text-light">Napp</h3>
                     </div>
                 </div>
                 <div class="carousel-item h-25" data-bs-interval="3000">
-                    <img src="../images/flakstad7(slideshow).png" class="d-block w-100">
+                    <img src="../images/Nusfjord.jpg" class="d-block w-100">
                     <div class="carousel-caption d-md-block">
                         <h3 class="text-light">Nusfjord</h3>
                     </div>
                 </div>
                 <div class="carousel-item h-25">
-                    <img src="../images/flakstad8(slideshow).png" class="d-block w-100">
+                    <img src="../images/varied.jpg" class="d-block w-100">
                     <div class="carousel-caption d-md-block">
                         <h3 class="text-light">Vareid</h3>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+
         </div>
 
         <div class="container-fluid d-flex pb-5 row m-0" id="bg-color">
@@ -243,59 +322,23 @@
                 <ul style="list-style-type: none;">
                     <li>
                         <a href="https://www.instagram.com/visit_lofoten/?hl=en" target="_blank"
-                        class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-instagram"></i> Instagram</a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/visitlofoten/" target="_blank"
-                        class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-facebook"> Facebook</i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/amazinglofoten" target="_blank"
-                        class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-twitter p-2"> Twitter</i></a>
+                            class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-instagram">
+                                Instagram</i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/visitlofoten/" target="_blank"
+                            class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-facebook">
+                                Facebook</i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/amazinglofoten" target="_blank"
+                            class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-twitter"> Twitter</i></a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    
-   <script>
-    const readMoreBtn = document.querySelector(".read-more-btn");
-    const text = document.querySelector(".text");
-    readMoreBtn.addEventListener("click", (e) => {
-        text.classList.toggle("show-more");
-        if (readMoreBtn.innerText === "Read More") {
-            readMoreBtn.innerText = "Read Less";
-        } else {
-            readMoreBtn.innerText = "Read More";
-        }
-    });  
-</script>
 
-<script>
-    const readMoreBtn1 = document.querySelector(".read-more-btn1");
-    const text1 = document.querySelector(".text1");
-    readMoreBtn1.addEventListener("click", (e) => {
-        text1.classList.toggle("show-more1");
-        if (readMoreBtn1.innerText === "Read More") {
-            readMoreBtn1.innerText = "Read Less";
-        } else {
-            readMoreBtn1.innerText = "Read More";
-        }
-    });  
-</script>
-
-<script>
-    const readMoreBtn2 = document.querySelector(".read-more-btn2");
-    const text2 = document.querySelector(".text2");
-    readMoreBtn2.addEventListener("click", (e) => {
-        text2.classList.toggle("show-more2");
-        if (readMoreBtn2.innerText === "Read More") {
-            readMoreBtn2.innerText = "Read Less";
-        } else {
-            readMoreBtn2.innerText = "Read More";
-        }
-    });  
-</script> 
 </body>
 
 </html>
