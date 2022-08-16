@@ -1,6 +1,6 @@
 #toppic {
     height: 600px;
-    background-image: url(../images/lofoten1\(\history\).png);
+    background-image: url(../images/history/lofotenhistory.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -17,7 +17,7 @@
 }
 
 /* Contact Us AND Submit Button*/
-.orange-button {
+.blue-button {
     font-family: 'Ropa Sans', sans-serif;
     /* font-family: 'Valorant', sans-serif; */
     color: white;
@@ -37,13 +37,13 @@
     position: relative;
 }
 
-.orange-button:hover {
+.blue-button:hover {
     border: 1px solid #FF4655;
     color: white;
     background-position: 40%;
 }
 
-.orange-button:before {
+.blue-button:before {
     content: "";
     position: absolute;
     background-color: #FF5403;
@@ -54,15 +54,15 @@
     transition: background-color 0.15s ease-in-out;
 }
 
-.orange-button:hover:before {
+.blue-button:hover:before {
     background-color: white;
 }
 
-.orange-button:hover:after {
+.blue-button:hover:after {
     background-color: white;
 }
 
-.orange-button:after {
+.blue-button:after {
     content: "";
     position: absolute;
     background-color: #FF4655;

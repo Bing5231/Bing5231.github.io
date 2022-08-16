@@ -1,6 +1,6 @@
 #toppic {
     height: 600px;
-    background-image: url(../images/lofoten1\(contact\).png);
+    background-image: url(../images/eggum.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -243,8 +243,8 @@ body {
     font-family: Oswald, sans-serif;
     font-size: 1em;
     border: none;
-    -webkit-box-shadow: 1px 1px 0 0 #832032, 2px 2px 0 0 #832032, 3px 3px 0 0 #832032;
-    box-shadow: 1px 1px 0 0 #832032, 2px 2px 0 0 #832032, 3px 3px 0 0 #832032;
+    -webkit-box-shadow: 1px 1px 0 0 #0037ff, 0px 0px 0 0 #0c42af, 0px 0px 0 0 #1c1cc6;
+    box-shadow: 1px 1px 0 0 #0026e4, 0px 0px 0 0 #1f1fcf, 0px 0px 0 0 #320dec;
     -webkit-appearance: none;
     -webkit-transition: all 250ms ease;
     -moz-transition: all 250ms ease;
@@ -254,8 +254,8 @@ body {
 }
 
 .submit_wrapper input:hover {
-    -webkit-box-shadow: 1px 1px 0 0 #0037ff, 0px 0px 0 0 #832032, 0px 0px 0 0 #832032;
-    box-shadow: 1px 1px 0 0 #0026e4, 0px 0px 0 0 #832032, 0px 0px 0 0 #832032;
+    -webkit-box-shadow: 1px 1px 0 0 #0037ff, 0px 0px 0 0 #240fc0, 0px 0px 0 0 #2710d3;
+    box-shadow: 1px 1px 0 0 #0026e4, 0px 0px 0 0 #6119fe, 0px 0px 0 0 #0d1ac9;
     margin-top: 22px;
     margin-left: 2px;
     margin-bottom: 0px;

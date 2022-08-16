@@ -1,6 +1,6 @@
 #toppic {
     height: 600px;
-    background-image: url(../images/snorkeling5.png);
+    background-image: url(../images/snorkeling/snorkeling.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -24,7 +24,7 @@
 
 .picture2{
     margin: auto;
-    width: 90%;
+    width: 93%;
     display: flex;
     justify-content: space-around;
 }

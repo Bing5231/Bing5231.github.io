@@ -1,6 +1,10 @@
+body{
+  overflow-x: hidden;
+}
+
 #toppic {
     height: 600px;
-    background-image: url(../images/lofoten1\(accommodation\).png);
+    background-image: url(../images/accommodation/accommodation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -215,12 +219,51 @@
             margin-bottom: 50px;
         }
 
+        .box2{
+          display: flex;
+          flex-direction: column;
+        }
+
+        #myImg2{
+          display: none;
+        }
+
+        #myImg7{
+          display: none;
+        }
+
+        .content{
+          width: 100% !important;
+        }
+
         #long{
             width: 50%;
         }
 
+        #myImg3{
+          display: none;
+        }
         
-    }
+        #myImg4{
+          display: none;
+        }
+
+        #text{
+          width: 100%;
+        }
+
+        #myImg8{
+          display: none;
+        }
+        
+        #myImg9{
+          display: none;
+        }
+
+        #text1{
+          width: 100%;
+        }
+} 
 
     @media screen and (max-width: 770px){
         #top{
@@ -239,6 +282,41 @@
             display: none;
         }
 
+    }
+
+    @media screen and (max-width: 767px){
+      #myImg{
+        display: none;
+      }
+
+      #myImg1{
+        display: none;
+      }
+
+      #myImg5{
+        display: none;
+      }
+
+      #myImg6{
+        display: none;
+      }
+      .image{
+        height: 500px!important;
+      }
+
+      .image1{
+        height: 500px!important;
+      }
+    }
+
+    @media screen and (max-width: 600px){
+      .image{
+        height: 300px!important;
+      }
+
+      .image1{
+        height: 300px!important;
+      }
     }
 
 
@@ -295,7 +373,6 @@
     }
 
     .content{
-        margin: auto;
         width: 50%;
     }
 
@@ -461,10 +538,21 @@
     }
 
     .image{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      background-image: url(../images/accommodation/thewaterfrontcabins.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 93%;
+      height:  700px;
+      margin: auto;
+    }
+
+    .image1{
+      background-image: url(../images/accommodation/SROK.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 93%;
+      height:  700px;
+      margin: auto;
     }
 
     .box3 h3{
