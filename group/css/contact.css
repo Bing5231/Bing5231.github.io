@@ -22,20 +22,6 @@ body {
     position: relative;
 }
 
-#contact::after {
-    content: "";
-    display: block;
-    height: 30px;
-    width: 90%;
-    left: 5%;
-    bottom: 0;
-    position: absolute;
-    -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.19);
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 100%;
-    z-index: -1;
-}
-
 #contact article {
     padding: 1em;
 }

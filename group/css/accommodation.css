@@ -538,7 +538,7 @@ body{
     }
 
     .image{
-      background-image: url(../images/accommodation/thewaterfrontcabins.jpg);
+      background-image: url(../images/accommodation/waterfront.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       width: 93%;
@@ -1230,5 +1230,17 @@ body{
 @media only screen and (max-width: 700px){
   .modal-content {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #toppic h1 {
+    font-size: 65px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #toppic h1 {
+    font-size: 40px !important;
   }
 }
