@@ -44,12 +44,12 @@ body{
     }
 
     #myImg {
-        border-radius: 5px;
+        border-radius: 30px;
         cursor: pointer;
         transition: 0.3s;
       }
       
-      #myImg:hover {opacity: 0.7;}
+      #myImg:hover {opacity: 0.3;}
       
       /* The Modal (background) */
       .modal {
@@ -130,12 +130,12 @@ body{
       }
 
       #myImg1 {
-        border-radius: 5px;
+        border-radius: 30px;
         cursor: pointer;
         transition: 0.3s;
       }
       
-      #myImg1:hover {opacity: 0.7;}
+      #myImg1:hover {opacity: 0.3;}
       
       /* The Modal (background) */
       .modal {
@@ -424,12 +424,12 @@ body{
     }
 
     #myImg2 {
-        border-radius: 5px;
+        border-radius: 30px;
         cursor: pointer;
         transition: 0.3s;
       }
       
-      #myImg2:hover {opacity: 0.7;}
+      #myImg2:hover {opacity: 0.3;}
       
       /* The Modal (background) */
       .modal {
@@ -538,7 +538,7 @@ body{
     }
 
     .image{
-      background-image: url(../images/accommodation/waterfront.jpg);
+      background-image: url(../images/accommodation/thewaterfrontcabins.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       width: 93%;
@@ -561,12 +561,12 @@ body{
     }
 
     #myImg3 {
-        border-radius: 5px;
+        border-radius: 30px;
         cursor: pointer;
         transition: 0.3s;
       }
       
-      #myImg3:hover {opacity: 0.7;}
+      #myImg3:hover {opacity: 0.3;}
       
       /* The Modal (background) */
       .modal {
@@ -648,12 +648,12 @@ body{
 
       
     #myImg4 {
-      border-radius: 5px;
+      border-radius: 30px;
       cursor: pointer;
       transition: 0.3s;
     }
     
-    #myImg4:hover {opacity: 0.7;}
+    #myImg4:hover {opacity: 0.3;}
     
     /* The Modal (background) */
     .modal {
@@ -779,12 +779,12 @@ body{
     }
 
     #myImg5 {
-      border-radius: 5px;
+      border-radius: 30px;
       cursor: pointer;
       transition: 0.3s;
     }
     
-    #myImg5:hover {opacity: 0.7;}
+    #myImg5:hover {opacity: 0.3;}
     
     /* The Modal (background) */
     .modal {
@@ -865,12 +865,12 @@ body{
     }
 
     #myImg6 {
-      border-radius: 5px;
+      border-radius: 30px;
       cursor: pointer;
       transition: 0.3s;
     }
     
-    #myImg6:hover {opacity: 0.7;}
+    #myImg6:hover {opacity: 0.3;}
     
     /* The Modal (background) */
     .modal {
@@ -975,12 +975,12 @@ body{
 /*box4*/
 
 #myImg7 {
-  border-radius: 5px;
+  border-radius: 30px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-#myImg7:hover {opacity: 0.7;}
+#myImg7:hover {opacity: 0.3;}
 
 /* The Modal (background) */
 .modal {
@@ -1062,12 +1062,12 @@ body{
 
 
 #myImg8 {
-  border-radius: 5px;
+  border-radius: 30px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-#myImg8:hover {opacity: 0.7;}
+#myImg8:hover {opacity: 0.3;}
 
 /* The Modal (background) */
 .modal {
@@ -1148,12 +1148,12 @@ body{
 }
 
 #myImg9 {
-  border-radius: 5px;
+  border-radius: 30px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-#myImg9:hover {opacity: 0.7;}
+#myImg9:hover {opacity: 0.3;}
 
 /* The Modal (background) */
 .modal {

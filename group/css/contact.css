@@ -27,7 +27,7 @@ body {
 }
 
 #contact h1 {
-    background: #67e9f0;
+    background: #5BBCBC;
     font-family: Oswald, sans-serif;
     font-size: 1.75em;
     padding: 0.6em 0 0.6em 0.4em;
@@ -38,9 +38,7 @@ body {
 }
 
 .contactbutton {
-    background: #67e9f0;
-    -webkit-box-shadow: 1px 1px 0 0 #0050fc, 2px 2px 0 0 #832032, 3px 3px 0 0 #832032;
-    box-shadow: 1px 1px 0 0 #0018f3, 2px 2px 0 0 #3200f8, 3px 3px 0 0 #0000f3;
+    background: #5BBCBC;
     text-align: center;
     display: block;
     width: 100%;
@@ -51,8 +49,6 @@ body {
 }
 
 .contactbutton:hover {
-    -webkit-box-shadow: 1px 1px 0 0 #0037ff, 0px 0px 0 0 #832032, 0px 0px 0 0 #832032;
-    box-shadow: 1px 1px 0 0 #0026e4, 0px 0px 0 0 #832032, 0px 0px 0 0 #832032;
     margin-top: 22px;
     margin-left: 2px;
     margin-bottom: 0px;
@@ -100,8 +96,6 @@ body {
 }
 
 .contactform {
-    overflow: hidden;
-    max-height: 0px;
     -webkit-transition: all linear 1s;
     -moz-transition: all linear 1s;
     -o-transition: all linear 1s;
@@ -168,7 +162,7 @@ body {
     left: 0;
     top: 0;
     height: 100%;
-    background: #67e9f0;
+    background: #5BBCBC;
     color: rgb(0, 0, 0);
     font-family: Oswald, sans-serif;
     box-sizing: border-box;
@@ -210,41 +204,6 @@ body {
     background: rgba(242, 56, 90, 0.05);
     box-shadow: inset 2px 2px 5px 0 #DADADA;
     outline: none;
-}
-
-.submit_wrapper {
-    text-align: center;
-}
-
-.submit_wrapper input {
-    text-align: center;
-    display: inline-block;
-    width: 40%;
-    height: 50px;
-    margin-top: 1em;
-    margin-bottom: 6px;
-    cursor: pointer;
-    background: #67e9f0;
-    color: rgb(0, 0, 0);
-    font-family: Oswald, sans-serif;
-    font-size: 1em;
-    border: none;
-    -webkit-box-shadow: 1px 1px 0 0 #0037ff, 0px 0px 0 0 #0c42af, 0px 0px 0 0 #1c1cc6;
-    box-shadow: 1px 1px 0 0 #0026e4, 0px 0px 0 0 #1f1fcf, 0px 0px 0 0 #320dec;
-    -webkit-appearance: none;
-    -webkit-transition: all 250ms ease;
-    -moz-transition: all 250ms ease;
-    -ms-transition: all 250ms ease;
-    -o-transition: all 250ms ease;
-    transition: all 250ms ease;
-}
-
-.submit_wrapper input:hover {
-    -webkit-box-shadow: 1px 1px 0 0 #0037ff, 0px 0px 0 0 #240fc0, 0px 0px 0 0 #2710d3;
-    box-shadow: 1px 1px 0 0 #0026e4, 0px 0px 0 0 #6119fe, 0px 0px 0 0 #0d1ac9;
-    margin-top: 22px;
-    margin-left: 2px;
-    margin-bottom: 0px;
 }
 
 @media (max-width: 500px) {

@@ -12,36 +12,6 @@
   background-size: cover;
 }
 
-.img-comp-container {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  height: 450px;
-}
-
-.img-comp-img {
-  position: absolute;
-  width: auto;
-  height: auto;
-  overflow: hidden;
-}
-
-.img-comp-img img {
-  display: block;
-}
-
-.img-comp-slider {
-  position: absolute;
-  top: 45% !important;
-  left: 43% !important;
-  z-index: 9;
-  cursor: ew-resize;
-  width: 40px;
-  height: 40px;
-  background-color: #f2da00;
-  border-radius: 50%;
-}
-
 .header-area {
   position: absolute;
   left: 0;
